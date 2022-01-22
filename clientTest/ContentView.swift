@@ -1,16 +1,10 @@
-//
-//  ContentView.swift
-//  clientTest
-//
-//  Created by Ivan on 22/1/22.
-//
 
 import SwiftUI
 
 struct ContentView: View {
+   
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+       HomeView()
     }
 }
 
