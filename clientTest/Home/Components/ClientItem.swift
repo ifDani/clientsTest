@@ -22,7 +22,7 @@ struct ClientItem: View {
                 VStack {
                     HStack(spacing: 10) {
                         Label {
-                            Text("\(client.code)")
+                            Text("\(client.code)").foregroundColor(.black)
                         } icon: {
                             Image(systemName: "qrcode").foregroundColor(.black)
                         }
