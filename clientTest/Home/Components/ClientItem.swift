@@ -30,7 +30,8 @@ struct ClientItem: View {
                        
                         
                         Label {
-                            Text(String(client.phone))
+                            Link(String(client.phone), destination: URL(string: "tel:\(client.phone)")!)
+                            
                         } icon: {
                             Image(systemName: "phone.fill").foregroundColor(.black)
                         }
