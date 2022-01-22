@@ -37,7 +37,7 @@ struct ClientItem: View {
                         }
 
                     }.padding(.horizontal).padding(.vertical, 10)
-                    Text(client.email).padding(.bottom, 10)
+                    Text(client.email).foregroundColor(.black).padding(.bottom, 10)
                     Text(client.name).nameClient()
                 }
             }.fixedSize()
